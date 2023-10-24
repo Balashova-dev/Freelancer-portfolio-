@@ -1,3 +1,4 @@
+@import  "./reset.css";
 @import "./media.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
@@ -7,11 +8,51 @@ body {
 
 
 .container {
-    width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
 }
 
+/* Header */
+
 .header {
+    padding-top: 46px;
     background: #F1F1F1;
+}
+
+/* NAV */
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.logo {
+    position: relative;  
+}
+
+.logo::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    bottom: -1px;
+    right: -12px;
+    border-radius: 50%;
+    background-color: #FDA300;;
+}
+
+.logo__link {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%; /* 32px */
+    color: #000;
+    text-decoration: none;
+}
+
+
+.nav__list {
 }
