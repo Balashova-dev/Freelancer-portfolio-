@@ -15,6 +15,13 @@ body {
     padding: 0 30px;
 }
 
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+    color:  #070707;
+}
+
+
 /* Header */
 
 .header {
@@ -147,21 +154,19 @@ body {
 
 .portfolio {
     padding: 90px 0;
-    text-align: center;
     background-color: #F1F1F1;
 }
 
 .portfolio__title {
+    text-align: center;
     margin-bottom: 70px;
 }
 
-.title-1 {
-    font-size: 34px;
-    font-weight: 600;
-    color:  #070707;
+.project {
+    text-align: center;
 }
 
-.project + * {
+.project + .project {
     margin-top: 90px;
 }
 
@@ -172,14 +177,20 @@ body {
 .project__title {
     font-size: 18px;
     font-weight: 400;
-    text-decoration: underline;
+
+}
+
+.project__title a {
     transition: color 0.2s ease-in;
+    text-decoration: underline;
     color: #070707;
 }
 
-.project__title:hover {
+.project__title a:hover {
     color: #606060;
 }
+
+
 
 /*  Contact */
 .contacts {
@@ -213,6 +224,12 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: #FFF;
+
+    transition: all 0.2s ease-in;
+}
+
+.contacts-btn:hover {
+    opacity: 0.2;
 }
 
 .contacts__subscribe {
@@ -227,7 +244,7 @@ body {
 }
 
 .subscribe__link {
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in;
 }
 
 .subscribe__link:hover {
