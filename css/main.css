@@ -182,28 +182,61 @@ body {
 }
 
 /*  Contact */
-.contact {
+.contacts {
+    max-width: 342px;
     padding: 90px 0;
+    margin: 0 auto;
 }
 
-.contact__row {
+.contacts__row {
     text-align: center;
 }
 
 .title-1 {
+    margin-bottom: 40px;
 }
 
-.contact__text {
+.contacts__heading {
+    margin-bottom: 40px;
 }
 
-.contact-btn {
+.contacts__btn-wrapper {
+    margin-bottom: 80px;   
 }
 
-.contact__subscribe {
+.contacts-btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.contacts__subscribe {
+    margin-bottom: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .subscribe__item {
+  
 }
 
 .subscribe__link {
+    transition: all 0.3s ease;
+}
+
+.subscribe__link:hover {
+    opacity: 0.1;
+}
+
+.contacts__text {
+    margin: 0 auto;
+    font-style: 14px;
+    font-weight: 400;
+    color: #828282;
 }
