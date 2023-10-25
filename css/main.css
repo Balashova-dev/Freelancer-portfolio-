@@ -21,6 +21,32 @@ body {
     color:  #070707;
 }
 
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF !important;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, 
+.btn:focus {
+    background-color: #323232;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+
+
 
 /* Header */
 
@@ -193,67 +219,50 @@ body {
 
 
 /*  Footer */
+
 .contacts {
-    max-width: 342px;
+    /* max-width: 342px; */
     padding: 90px 0;
-    margin: 0 auto;
-}
-
-.contacts__row {
     text-align: center;
+    /* margin: 0 auto; */
 }
 
-.title-1 {
-    margin-bottom: 40px;
+.contacts__title {
+    
+}
+
+.contacts__content {
+    max-width: 480px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+}
+
+.contacts__content p + p {
+    margin-top: 1em;
 }
 
 .contacts__heading {
-    margin-bottom: 40px;
 }
 
-.contacts__btn-wrapper {
+.contacts__button {
     margin-bottom: 80px;   
 }
 
-.contacts-btn {
-    display: inline-block;
-    padding: 7px 22px;
-    background-color: #070707;
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #FFF;
-
-    transition: all 0.2s ease-in;
-}
-
-.contacts-btn:hover {
-    opacity: 0.2;
-}
-
-.contacts__subscribe {
-    margin-bottom: 41px;
+.contacts__socials {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.subscribe__item {
-  
+    column-gap: 60px;
+    margin-bottom: 40px;
 }
 
 .subscribe__link {
-    transition: all 0.3s ease-in;
 }
 
-.subscribe__link:hover {
-    opacity: 0.1;
+.contacts__footer {
 }
 
 .contacts__text {
-    margin: 0 auto;
-    font-style: 14px;
     font-weight: 400;
     color: #828282;
 }
