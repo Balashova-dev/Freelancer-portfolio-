@@ -180,3 +180,30 @@ body {
 .project__title:hover {
     color: #606060;
 }
+
+/*  Contact */
+.contact {
+    padding: 90px 0;
+}
+
+.contact__row {
+    text-align: center;
+}
+
+.title-1 {
+}
+
+.contact__text {
+}
+
+.contact-btn {
+}
+
+.contact__subscribe {
+}
+
+.subscribe__item {
+}
+
+.subscribe__link {
+}
