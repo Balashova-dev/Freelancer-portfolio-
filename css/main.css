@@ -142,3 +142,41 @@ body {
 .service__card-text {
     line-height: 2; /* 28px */
 }
+
+/* Portfolio section*/
+
+.portfolio {
+    padding: 90px 0;
+    text-align: center;
+    background-color: #F1F1F1;
+}
+
+.portfolio__title {
+    margin-bottom: 70px;
+}
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+    color:  #070707;
+}
+
+.project + * {
+    margin-top: 90px;
+}
+
+.project__img {
+    margin-bottom: 40px;
+}
+
+.project__title {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    transition: color 0.2s ease-in;
+    color: #070707;
+}
+
+.project__title:hover {
+    color: #606060;
+}
