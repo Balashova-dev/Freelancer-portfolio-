@@ -53,4 +53,21 @@
         top: 46px;
         right: 30px;
     }
+
+    .heaader__nav {
+        margin-bottom: 50px;
+    }
+
+    .header__row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .header__content {
+        margin-top: 0;
+    }
+
+    .header__img {
+        text-align: center;
+    }
 }
