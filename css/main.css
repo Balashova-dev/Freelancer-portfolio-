@@ -107,14 +107,14 @@ body {
     margin-left: 50px;
 }
 
-.nav__item-link {
+.nav__link {
 
     color: #000;
     transition: color 0.2s ease-in;
 }
 
-.nav__item-link.active,
-.nav__item-link:hover {
+.nav__link.active,
+.nav__link:hover {
     color: #606060;
 }
 

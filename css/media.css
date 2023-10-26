@@ -10,23 +10,40 @@
     
 
     .nav.open .nav__list {
-        display: block;
         position: fixed;
         top: 0;
         bottom: 0;
         right: 0;
         left: 0;
         background-color: #fff;
-        /* padding: 46px 30px 0;
+
+        z-index: 1;
+        padding: 46px 30px;
+        display: flex;
         flex-direction: column;
+        column-gap: 40px;
+
+        font-size: 34px;
+        font-weight: 600;
+        
+        /* padding: 46px 30px 0;
+        
         align-items: flex-start;
         width: 375px;
         height: 812px;
         background-color: #fff;
 
-        color: #828282;
+        
         font-size: 34px;
         font-weight: 600; */
 
+    }
+
+    .nav__link {
+        color: #828282;
+    }
+
+    .nav__link.active {
+        color: #000;
     }
 }
