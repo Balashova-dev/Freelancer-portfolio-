@@ -99,6 +99,10 @@ body {
     font-weight: 500;
 }
 
+.nav__button {
+    display: none;
+}
+
 .nav__item + * {
     margin-left: 50px;
 }
