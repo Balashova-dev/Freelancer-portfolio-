@@ -142,9 +142,6 @@ body {
     line-height: 2; /* 28px */
 }
 
-.header__img {
-}
-
 /* Service section*/
 
 .services {
@@ -261,12 +258,6 @@ body {
     align-items: center;
     column-gap: 60px;
     margin-bottom: 40px;
-}
-
-.subscribe__link {
-}
-
-.contacts__footer {
 }
 
 .contacts__text {
