@@ -48,10 +48,14 @@
     }
 
     .nav__button {
-        position: fixed;
+        position: absolute;
         z-index: 9;
         top: 46px;
         right: 30px;
+    }
+
+    .nav.open .nav__button {
+        position: fixed;
     }
 
     .heaader__nav {
