@@ -155,10 +155,13 @@ body {
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
 }
 
 .service__card {
-    max-width: 370px;
+    flex:  1 1 0;
+    min-width: 315px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;

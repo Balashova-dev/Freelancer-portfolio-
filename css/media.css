@@ -81,5 +81,9 @@
     .header__heading span {
         font-style: 28px;
     }
+
+    .services {
+        padding: 60px 0;
+    }
 }
 
