@@ -85,5 +85,21 @@
     .services {
         padding: 60px 0;
     }
+
+    .portfolio {
+        padding: 60px 0;
+    }
+
+    .portfolio__title {
+        margin-bottom: 50px;
+    }
+
+    .project__img {
+        margin-bottom: 30px;
+    }
+
+    .project + .project {
+        margin-top: 55px;
+    }
 }
 
