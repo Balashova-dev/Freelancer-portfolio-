@@ -8,7 +8,6 @@ body {
     color: #000;
 }
 
-
 .container {
     max-width: 1230px;
     margin: 0 auto;
@@ -95,16 +94,13 @@ body {
 
 .nav__list {
     display: flex;
+    column-gap: 50px;
     font-size: 14px;
     font-weight: 500;
 }
 
 .nav__button {
     display: none;
-}
-
-.nav__item + * {
-    margin-left: 50px;
 }
 
 .nav__link {
@@ -231,10 +227,6 @@ body {
     /* margin: 0 auto; */
 }
 
-.contacts__title {
-    
-}
-
 .contacts__content {
     max-width: 480px;
     margin: 0 auto 40px;
@@ -243,9 +235,6 @@ body {
 
 .contacts__content p + p {
     margin-top: 1em;
-}
-
-.contacts__heading {
 }
 
 .contacts__button {
